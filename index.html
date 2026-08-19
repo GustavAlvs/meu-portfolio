@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de desenvolvimento web.">
+  <title>Meu Portfólio | Desenvolvedor Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#inicio">&lt;MeuPortfólio /&gt;</a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><button class="theme-btn" id="themeBtn" aria-label="Alternar tema">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-text">
+        <p class="tag">DESENVOLVIMENTO WEB</p>
+        <h1>Olá, eu sou <span>Seu Nome</span>.</h1>
+        <p class="subtitle">
+          Estudante e desenvolvedor em formação, criando projetos com
+          HTML, CSS e JavaScript.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn secondary" href="#contato">Entre em contato</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="code-window">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <pre><code>const estudante = {
+  nome: "Seu Nome",
+  area: "Web",
+  foco: ["HTML", "CSS", "JS"],
+  objetivo: "Evoluir sempre"
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre">
+      <p class="tag">SOBRE MIM</p>
+      <h2>Construindo conhecimento através da prática.</h2>
+      <p class="section-text">
+        Sou estudante de tecnologia interessado em desenvolvimento web.
+        Este portfólio apresenta alguns projetos e habilidades desenvolvidos
+        durante meus estudos. Estou sempre buscando aprender novas ferramentas
+        e melhorar a qualidade dos meus projetos.
+      </p>
+    </section>
+
+    <section class="section container" id="projetos">
+      <p class="tag">PROJETOS</p>
+      <h2>Projetos em destaque</h2>
+
+      <div class="projects">
+        <article class="project-card">
+          <div class="project-icon">01</div>
+          <h3>Landing Page</h3>
+          <p>Uma página responsiva criada com HTML e CSS, com foco em organização e design.</p>
+          <div class="tech"><span>HTML</span><span>CSS</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">02</div>
+          <h3>Lista de Tarefas</h3>
+          <p>Aplicação simples para adicionar, concluir e remover tarefas usando JavaScript.</p>
+          <div class="tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-icon">03</div>
+          <h3>Portfólio</h3>
+          <p>Este próprio site, publicado gratuitamente com GitHub Pages.</p>
+          <div class="tech"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container" id="habilidades">
+      <p class="tag">HABILIDADES</p>
+      <h2>Tecnologias que estou estudando</h2>
+
+      <div class="skills">
+        <div class="skill"><strong>HTML5</strong><span>Estrutura</span></div>
+        <div class="skill"><strong>CSS3</strong><span>Estilo e responsividade</span></div>
+        <div class="skill"><strong>JavaScript</strong><span>Interatividade</span></div>
+        <div class="skill"><strong>GitHub</strong><span>Versionamento</span></div>
+      </div>
+    </section>
+
+    <section class="contact section container" id="contato">
+      <p class="tag">CONTATO</p>
+      <h2>Vamos conversar?</h2>
+      <p class="section-text">Substitua os links abaixo pelos seus contatos antes de publicar.</p>
+      <div class="contact-links">
+        <a class="btn primary" href="mailto:seuemail@example.com">✉ E-mail</a>
+        <a class="btn secondary" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Seu Nome · Desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
