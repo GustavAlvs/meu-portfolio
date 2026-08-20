@@ -43,16 +43,64 @@
       </div>
 
       <div class="hero-card">
-        <div class="code-window">
-          <div class="dots"><i></i><i></i><i></i></div>
-          <pre><code>const estudante = {
-  nome: "Gustavo Michael Alves Pereira",
-  area: "Web",
-  foco: ["HTML", "CSS", "JS", "SQL"],
-  objetivo: "Evoluir sempre"
-};</code></pre>
+
+  <div class="code-window terminal-window">
+
+    <div class="terminal-header">
+
+      <div class="dots">
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+
+      <span class="terminal-title">
+        gustavo@portfolio:~
+      </span>
+
+    </div>
+
+    <div class="terminal-body">
+
+      <div class="terminal-line">
+        <span class="terminal-prompt">></span>
+        <span id="terminal-status">
+          iniciando_portfolio.exe
+        </span>
+      </div>
+
+      <div id="terminal-output"></div>
+
+      <div class="terminal-line terminal-loading">
+        <span class="terminal-prompt">></span>
+        <span id="terminal-loading-text">
+          carregando projetos...
+        </span>
+      </div>
+
+      <div class="progress">
+        <div
+          class="progress-bar"
+          id="progress-bar">
         </div>
       </div>
+
+      <div
+        class="terminal-success"
+        id="terminal-success">
+        ✓ Sistema iniciado
+      </div>
+
+      <div class="terminal-cursor">
+        <span>></span>
+        <span class="cursor">█</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
     </section>
 
     <section class="section container" id="sobre">
