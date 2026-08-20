@@ -273,3 +273,44 @@ footer {
   .skills { grid-template-columns: 1fr; }
   h1 { letter-spacing: -2px; }
 }
+/* ========================================
+   ANIMAÇÃO DO NOME
+======================================== */
+
+.name-glow {
+  color: var(--accent);
+  position: relative;
+  display: inline-block;
+
+  background: linear-gradient(
+    90deg,
+    var(--accent) 0%,
+    var(--accent) 35%,
+    #ffffff 50%,
+    var(--accent) 65%,
+    var(--accent) 100%
+  );
+
+  background-size: 250% 100%;
+  background-position: 100% 0;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: nameShine 3s ease-in-out infinite;
+}
+
+@keyframes nameShine {
+  0% {
+    background-position: 100% 0;
+  }
+
+  50% {
+    background-position: 0% 0;
+  }
+
+  100% {
+    background-position: 100% 0;
+  }
+}
