@@ -1,25 +1,31 @@
 :root {
-  --bg: #07111f;
-  --surface: #0d1b2e;
-  --surface-2: #132640;
-  --text: #edf5ff;
-  --muted: #a9b8ca;
-  --accent: #58a6ff;
-  --accent-2: #7ee787;
+  --bg: #160708;
+  --surface: #230b0d;
+  --surface-2: #351014;
+  --text: #fff1f2;
+  --muted: #c9a9ad;
+
+  --accent: #ff4d5a;
+  --accent-2: #ff7a85;
+
   --border: rgba(255, 255, 255, .10);
-  --shadow: 0 18px 50px rgba(0, 0, 0, .25);
+
+  --shadow: 0 18px 50px rgba(0, 0, 0, .30);
 }
 
 body.light {
-  --bg: #f5f8fc;
+  --bg: #fff7f7;
   --surface: #ffffff;
-  --surface-2: #edf4fb;
-  --text: #172033;
-  --muted: #5f6b7a;
-  --accent: #1769d1;
-  --accent-2: #16834d;
-  --border: rgba(20, 40, 70, .12);
-  --shadow: 0 18px 50px rgba(40, 70, 100, .12);
+  --surface-2: #fff0f1;
+  --text: #241518;
+  --muted: #705c60;
+
+  --accent: #d92f3f;
+  --accent-2: #e85b68;
+
+  --border: rgba(80, 20, 25, .12);
+
+  --shadow: 0 18px 50px rgba(100, 30, 40, .12);
 }
 
 
@@ -111,7 +117,7 @@ a {
   transform: translateY(-2px);
 
   filter:
-    drop-shadow(0 0 8px rgba(88, 166, 255, .35));
+    drop-shadow(0 0 8px rgba(255, 77, 90, .35));
 }
 
 
@@ -331,7 +337,7 @@ h1 span,
   transform: translateY(-4px) scale(1.02);
 
   box-shadow:
-    0 10px 30px rgba(88, 166, 255, .25);
+    0 10px 30px rgba(255, 77, 90, .25);
 
   border-color:
     rgba(88, 166, 255, .45);
@@ -354,15 +360,15 @@ h1 span,
   border-color: transparent;
 
   box-shadow:
-    0 5px 20px rgba(88, 166, 255, .15);
+    0 5px 20px rgba(255, 77, 90, .15);
 }
 
 .primary:hover {
   background: #69afff;
 
   box-shadow:
-    0 8px 30px rgba(88, 166, 255, .35),
-    0 0 20px rgba(88, 166, 255, .15);
+    0 8px 30px rgba(255, 77, 90, .35),
+    0 0 20px rgba(255, 77, 90, .15);
 }
 
 
@@ -600,7 +606,7 @@ pre {
   background: var(--bg);
 
   box-shadow:
-    0 0 20px rgba(88, 166, 255, .15);
+    0 0 20px rgba(255, 77, 90, .15);
 }
 
 
@@ -815,7 +821,7 @@ footer {
     filter:
       drop-shadow(
         0 0 10px
-        rgba(88, 166, 255, .35)
+        rgba(255, 77, 90, .35)
       );
   }
 
@@ -825,7 +831,7 @@ footer {
     filter:
       drop-shadow(
         0 0 10px
-        rgba(88, 166, 255, .35)
+        rgba(255, 77, 90, .35)
       );
   }
 
