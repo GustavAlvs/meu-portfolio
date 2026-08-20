@@ -11,7 +11,7 @@ tecnologia.
 ## 🌐 Acesse o projeto
 
 🔗 **Site:**  
-https://gustalvs.github.io/meu-portfolio/
+https://gustavalvs.github.io/meu-portfolio/
 
 🔗 **Repositório:**  
 https://github.com/GustavAlvs/meu-portfolio
